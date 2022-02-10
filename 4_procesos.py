@@ -7,8 +7,11 @@ def f():
 		c.value+=1
 		print(f"hola soy {current_process().pid}, vuelta: {i}, contador: {c.value}")
 
+
 def g():
 	print("adios")
+
+
 
 if __name__=="__main__":
 	N=8
