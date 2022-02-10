@@ -6,7 +6,6 @@ def f():
 	for i in range(5):
 		print(f"hola soy {current_process(), name}," + \ f"{current_process().pid}, {current_process().is_alive()}, vuelta {i}")
      		time.sleep(random.random()/3)
-
 def g():
 	print("adios")
 
@@ -20,4 +19,3 @@ if __name__=="__main__":
 	q=Process(target=g)
 	q.start()
 	print("fin")
-

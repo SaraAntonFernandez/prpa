@@ -18,4 +18,3 @@ if __name__=="__main__":
 	q=Process(target=g)
 	q.start()
 	print ("fin")
-

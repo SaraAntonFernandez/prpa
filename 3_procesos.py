@@ -16,7 +16,6 @@ if __name__=="__main__":
 	c=Value('i',0)
 	for i in range(N):
 		lp.append(Process(target=f, args=(c,)))
-	
 	print("Valor inicial del contador", c.value)
 	for p in lp:
 		p.start()
